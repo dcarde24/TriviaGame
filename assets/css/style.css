@@ -2,3 +2,25 @@ body {
     background-color: red;
     height: 100vh;
 }
+
+.choice {
+    background-color: grey;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: white;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.Timer {
+    text-align: left;
+}
+
+.Gameplay {
+    text-align: left;
+}
