@@ -23,9 +23,25 @@ var score = 0;
 var loss = 0;
 var timer;
 
+//Create logic for new question to cycle through
+var newQuestion = function() {
+
+    var questionEnd = (trivQuestions.length - 1) === presQuestion; 
+    if (questionEnd) {
+        console.log("Game Over!")
+    } else {
+        presQuestion++;
+        showQuestion();
+    }
+}
+
 //Logic for timer function on page
 var timeUp = function() {
     clearInterval(timer);
+
+    loss++;
+
+    newQuestion();
 }
 
 var countDown = function() {
@@ -64,5 +80,24 @@ var showChoices = function (choices) {
 
     return result;
 }
+
+//Added logic for correct or wrong answer
+$(document).on('click', '.choice', function() {
+    clearInterval(timer);
+    var selection = $(this).attr('data-answer');
+    var answer = trivQuestions[presQuestion].answer;
+    
+    if (answer === selection) {
+        //TODO
+        //USER WINS
+        score++;
+        alert("Correct!!");
+        newQuestion();
+    } else {
+        loss++;
+        alert("Incorrect");
+        newQuestion();
+    }
+});
 
 showQuestion();
