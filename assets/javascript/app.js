@@ -1,38 +1,38 @@
 //Create trivia questions and answers
 var trivQuestions = [{
     question: "What makes an automobile stop?",
-    choices: ["Brakes", "Tires", "Headlights", "Steering Wheel"],
-    answer: "Brakes"
+    choices: [" Brakes", " Tires", " Headlights", " Steering Wheel"],
+    answer: " Brakes"
 },
 {
     question: "What gives an automobile electrical power?",
-    choices: ["Battery", "Starter", "Alternator", "None of the Above"],
-    answer: "Battery"
+    choices: [" Battery", " Starter", " Alternator", " None of the Above"],
+    answer: " Battery"
 },
 {
     question: "In automotive terms, what does RPM stand for?",
-    choices: ["Road Power Modulator", "Resale Price Maintenance", "Revolutions Per Minute", "None of the Above"],
-    answer: "Revolutions Per Minute"
+    choices: [" Road Power Modulator", " Resale Price Maintenance", " Revolutions Per Minute", " None of the Above"],
+    answer: " Revolutions Per Minute"
 },
 {
     question: "What does antifreeze do?",
-    choices: ["Make the car go vroom vroom", "Keep the engine cool", "Make a tasty drink", "None of the Above"],
-    answer: "Keep the engine cool"
+    choices: [" Make the car go vroom vroom", " Keep the engine cool", " Make a tasty drink", " None of the Above"],
+    answer: " Keep the engine cool"
 },
 {
     question: "Where does engine oil go?",
-    choices: ["In the trunk", "In the headlight", "Inside the engine", "None of the Above"],
-    answer: "Inside the engine"
+    choices: [" In the trunk", " In the headlight", " Inside the engine", " None of the Above"],
+    answer: " Inside the engine"
 },
 {
     question: "What should you do when your check engine light comes on?",
-    choices: ["Put tape over the light", "Take it to a trusted mechanic", "Open the hood and see if the engine is there", "None of the Above"],
-    answer: "Take it to a trusted mechanic"
+    choices: [" Put tape over the light", " Take it to a trusted mechanic", " Open the hood and see if the engine is there", " None of the Above"],
+    answer: " Take it to a trusted mechanic"
 },
 {
     question: "How often should you change your blinker fluid?",
-    choices: ["It's a lifetime fluid", "Once a month", "Once a year", "There is no such thing as blinker fluid"],
-    answer: "There is no such thing as blinker fluid"
+    choices: [" It's a lifetime fluid", " Once a month", " Once a year", " There is no such thing as blinker fluid"],
+    answer: " There is no such thing as blinker fluid"
 }
 ];
 
