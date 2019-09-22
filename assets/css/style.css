@@ -4,7 +4,7 @@ body {
 }
 
 .choice {
-    background-color: grey;
+    background-color: lightgrey;
     border: 1px solid black;
     cursor: pointer;
 }
