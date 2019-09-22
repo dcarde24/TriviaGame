@@ -127,7 +127,7 @@ var showOutCome = function() {
         <p>You answered ${score} questions(s) correctly and</p>
         <p>you answered ${loss} questions(s) incorrectly</p>
         <p>out of a total amount of ${trivQuestions.length} questions(s)</p>
-        <button class="btn btn-primary" id="restart">Restart Game</button>
+        <button class="btn btn-light" id="restart">Restart Game</button>
     `; 
 
     $('#Gameplay').html(outCome);
@@ -152,7 +152,7 @@ var questRem = function() {
     return `Rem Quest: ${remQuest}/${totQuest}`;
 }
 
-//This begin function allows the user to begin the game by clicking the button at the top of the page.
+//This begin function allows the user to begin the game by clicking the button at the top of the webpage.
 $('#Begin').click(function() {
     $('#Begin').remove();
     $('#Timer').html(counter);
